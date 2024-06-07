@@ -1,5 +1,6 @@
 import Hero from "../components/hero/Hero";
 import NewCollections from "../components/newCollections/NewCollections";
+import NewsLetter from "../components/newsLetter/NewsLetter";
 import Offers from "../components/offers/Offers";
 import Popular from "../components/popular/Popular";
 
@@ -11,6 +12,7 @@ function Shop() {
         <Popular />
         <Offers />
         <NewCollections />
+        <NewsLetter />
       </div>
     </>
   );
